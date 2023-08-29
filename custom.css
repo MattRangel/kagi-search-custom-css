@@ -1,0 +1,67 @@
+/* Customize colors here */
+
+:root {
+  --my-bg: #1c1c1c;
+  --my-bg-darker: #161616;
+  --my-main-color: #199146;
+  --my-main-color-dark: #295e3d;
+  --my-main-color-recent: rgba(73, 104, 85, 0.25);
+  --my-main-color-old: rgba(73, 104, 85, 0.8);
+}
+
+/* Color changes */
+
+html.theme_moon_dark > body {
+  background-color: var(--my-bg);
+}
+
+.theme_moon_dark {
+  --kagi-accent: var(--my-bg-darker);
+  --cheatsh_background: var(--my-bg-darker);
+  --input-bg: var(--my-bg-darker);
+  --background-color: var(--my-bg);
+  --m_sri_gap_color: var(--my-bg);
+  --dd-list-input-bg: var(--my-bg);
+  --dd-hover-bg: var(--my-bg);
+  --search-result-title-hover: var(--my-main-color);
+  --search-result-title: var(--my-main-color);
+  --wiki-content-links: var(--my-main-color);
+  --result-item-title-border_hover: var(--my-main-color);
+  --result-item-title-border: rgba(0,0,0,0);
+  --color-primary_hover: var(--my-main-color);
+  --color_link: var(--my-main-color);
+  --inline-domain-tag-bg: var(--my-main-color-recent);
+  --search-result-date-bg: var(--my-main-color-recent);
+  --search-result-date-new-bg: var(--my-main-color-old);
+  --inline-widget-bg: var(--my-main-color-recent);
+  --color-primary_visited: var(--my-main-color-dark);
+  --filter-dd-bg: var(--my-bg);
+}
+
+.btn.--yellow {
+  border: none;
+  background-color: var(--my-main-color);
+}
+
+/* Outline color + size for various search objects */
+
+._0_d_info_ranking.k_ui_btn_group input:checked + .box.k_ui_btn, ._0_sri-w-highlight .box.searchResultAnswer, .box.--active, .box._0_sri-w-highlight, .box:hover {
+  outline: 3px solid var(--color-primary_hover);
+}
+
+/* Adjusts spacing of advanced search options */
+
+._0_k_ui_dropdown.k_ui_dropdown.__basic.__transparent {
+  padding: 0.5em;
+  margin: 0;
+}
+
+.main_filters_box {
+  gap: 1em;
+}
+
+/* Removes dog and clouds from search home page */
+
+.cloud_1, .cloud_2, .doggo-left {
+  display: none;
+}
