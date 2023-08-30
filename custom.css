@@ -5,8 +5,8 @@
   --my-bg-dark: #161616;
   --my-main-color: #199146;
   --my-main-color-dark: #295e3d;
-  --my-main-color-recent: rgba(73, 104, 85, 0.25);
-  --my-main-color-old: rgba(73, 104, 85, 0.8);
+  --my-main-color-recent: rgba(73, 104, 85, 0.8);
+  --my-main-color-old: rgba(73, 104, 85, 0.25);
 }
 
 /* Color changes */
