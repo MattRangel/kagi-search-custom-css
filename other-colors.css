@@ -1,0 +1,50 @@
+/* Values to replace are under :root in custom.css */
+
+/* Green (Original) */ {
+  --my-main-color: #199146;
+  --my-main-color-dark: #295e3d;
+  --my-main-color-recent: rgba(73, 104, 85, 0.8);
+  --my-main-color-old: rgba(73, 104, 85, 0.25);
+}
+
+/* Blue */ {
+  --my-main-color: #197c91;
+  --my-main-color-dark: #28535c;
+  --my-main-color-recent: rgba(73, 100, 105, 0.8);
+  --my-main-color-old: rgba(73, 100, 105, 0.25);
+}
+
+/* Orange */ {
+  --my-main-color: #915f19;
+  --my-main-color-dark: #5e4b29;
+  --my-main-color-recent: rgba(104, 81, 73, 0.8);
+  --my-main-color-old: rgba(104, 81, 73, 0.25);
+}
+
+/* Purple */ {
+  --my-main-color: #5d1991;
+  --my-main-color-dark: #48295e;
+  --my-main-color-recent: rgba(90, 73, 104, 0.8);
+  --my-main-color-old: rgba(90, 73, 104, 0.25);
+}
+
+/* Magenta */ {
+  --my-main-color: #91193b;
+  --my-main-color-dark: #5e2937;
+  --my-main-color-recent: rgba(104, 73, 82, 0.8);
+  --my-main-color-old: rgba(104, 73, 82, 0.25);
+}
+
+/* Yellow */ {
+  --my-main-color: #917f19;
+  --my-main-color-dark: #5e5629;
+  --my-main-color-recent: rgba(104, 97, 73, 0.8);
+  --my-main-color-old: rgba(104, 97, 73, 0.25);
+}
+
+/* Red */ {
+  --my-main-color: #91191f;
+  --my-main-color-dark: #5e292c;
+  --my-main-color-recent: rgba(104, 73, 73, 0.8);
+  --my-main-color-old: rgba(104, 73, 73, 0.25);
+}
