@@ -36,6 +36,8 @@ html.theme_moon_dark > body {
   --inline-widget-bg: var(--my-main-color-old);
   --color-primary_visited: var(--my-main-color-dark);
   --filter-dd-bg: var(--my-bg);
+  --related-item-bg: var(--my-bg-dark);
+  --footer-bg: var(--my-bg-dark);
 }
 
 .btn.--yellow {
