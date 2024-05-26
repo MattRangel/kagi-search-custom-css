@@ -3,6 +3,7 @@
 :root {
   --my-bg: #1c1c1c;
   --my-bg-dark: #161616;
+  --my-bg-light: #2c2c2c;
   --my-main-color: #199146;
   --my-main-color-dark: #295e3d;
   --my-main-color-recent: rgba(73, 104, 85, 0.8);
@@ -13,6 +14,10 @@
 
 html.theme_moon_dark > body {
   background-color: var(--my-bg);
+}
+
+.spt {
+  background: none;
 }
 
 .theme_moon_dark {
@@ -35,9 +40,17 @@ html.theme_moon_dark > body {
   --search-result-date-new-bg: var(--my-main-color-recent);
   --inline-widget-bg: var(--my-main-color-old);
   --color-primary_visited: var(--my-main-color-dark);
+  --primary-visited: var(--my-main-color-dark);
   --filter-dd-bg: var(--my-bg);
   --related-item-bg: var(--my-bg-dark);
   --footer-bg: var(--my-bg-dark);
+  --app-bg: var(--my-bg-light);
+  --color-search-input: var(--my-bg-light);
+  --nav_n_se_line: var(--my-main-color);
+  --nav_n_im_line: var(--my-main-color);
+  --nav_n_vi_line: var(--my-main-color);
+  --nav_n_ne_line: var(--my-main-color);
+  --nav_n_ma_line: var(--my-main-color);
 }
 
 .btn.--yellow {
@@ -62,8 +75,8 @@ html.theme_moon_dark > body {
   gap: 1em;
 }
 
-/* Removes dog and clouds from search home page */
+/* Removes dog from search home page */
 
-.cloud_1, .cloud_2, .doggo-left {
+.doggo_sit_a {
   display: none;
 }
